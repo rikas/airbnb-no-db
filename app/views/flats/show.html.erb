@@ -1,0 +1,6 @@
+<h2><%= @flat[:name] %></h2>
+
+<p><%= link_to '<< Back', list_path %></p>
+
+<!-- <img src="<%= @flat[:imageUrl] %>" height="200"> -->
+<%= image_tag @flat[:imageUrl], height: '200' %>
